@@ -29,24 +29,10 @@
     padding-top: 27px;
     background-color: #ffffff;
 }
-/* li a {
-    display: block;
-    height: 18px;
-    width: 80px;
-    text-align: center;
-    background-color: #ffffff;
-    color: #777777;
-    float:left;
-    font-weight: bold;
-    /* padding-top: 25px; */
-    /* border-right: 1px solid; 
-} */
 #Body{
-    /* background-color: blue;  */
     width: 960px;
     height: 400px;
     margin: auto;
-    /* padding:20px; */
     background-color: #ffffff;
 }
 #About{
@@ -71,7 +57,6 @@
     font-size:12px;
     border-top: 4px solid #4aaaa5;
     color:#a8a7a7;
-    /* color: #ffffff; */
 }
 #Footer{
     border-top: 2px solid #4aaaa5;
@@ -84,11 +69,7 @@ li {
     width: 80px;
     text-align: center;
     background-color: #ffffff;
-    /* color: #777777; */
-    /* color: #a8a7a7; */
     float:left;
-    /* font-weight: bold; */
-    /* padding-top: 25px; */
     font-size: 14px;
 }
 li+li{
@@ -101,14 +82,9 @@ a:link, a:visited{
 a:hover{
     color: #4aaaa5;
 }
-/* p{
-    float: left;
-} */
 img{
     float: left;
     padding: 0px;
-    /* padding-top: 20px;
-    padding-right: 20px; */
     width: 220px;
     height: 220px;
 }
@@ -125,7 +101,6 @@ p{
     padding-right: 20px;
     padding-left: 20px;
     color: #777777;
-    
 }
 span{
     line-height: 25px;
@@ -217,137 +192,49 @@ form{
     margin-right: 100px;   
 }
 .four{
-    /* clear:both; */
     position: relative;
     text-align: center;
     margin-top: 30px;
     margin-left: 100px;
     float: left;    
 }
-/* .five,.six{
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 50px;
-    float: left;    
-}
-.six{
-    margin-right: 100px;   
-} */
 #BodyPort{
-    /* background-color: blue;  */
     width: 960px;
     height: 700px;
     margin: auto;
-    /* padding:20px; */
     background-color: #ffffff;
 }
 
 @media screen and (max-width: 980px) {
-    #Top{
-        background-color: #ffffff;
-        border-bottom: 2px solid #cccccc;
-        margin-bottom: 30px;
-    }
     #Header{
-        background-color: #ffffff;
         width: 660px;
-        height: 70px;
-        margin: auto;
-        border-color: #cccccc;
-    }
-    #Name{
-        height: 50px;
-        width: 280px;
-        float: left;
-        text-align: center;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-weight: bolder;
-        font-size: 30px;
-        padding-top: 20px;
-        padding-left: 2px;
-    }
-    #Nav{
-        height: 43px;
-        width: 243px;
-        float: right;
-        padding-top: 27px;
-        background-color: #ffffff;
     }
     #Body{
-        /* background-color: blue;  */
         width: 660px;
         height: auto;
-        margin: auto;
-        /* padding:20px; */
-        background-color: #ffffff;
     }
     #About{
-            height: 50px;
             width: 620px;
-            margin: auto;
-            font-weight: bolder;
-            font-size: 30px;
-            padding-top: 20px;
-            color: #4aaaa5;
-            border-bottom: 2px solid #cccccc;
         }
     #Footer, #Copyright{
-            height: 15px;
-            background-color: #666666;
-            position: static; bottom: 0; 
-            width: 100%;
-            text-align: center;
-        }
-    #Copyright{
-            padding-top: 40px;
-            font-size:12px;
-            border-top: 4px solid #4aaaa5;
-            color:#a8a7a7;
-            /* color: #ffffff; */
-        }
-    #Footer{
-            border-top: 2px solid #4aaaa5;
+            position: static; bottom: 0;
         }
     #message,#email,#name{
-        margin-top: 4px;
-        border-radius: 4px; 
-        height: 25px;
         width: 100%;
-            
         }
     #Form{
         width: 92%;
         margin: 4%;         
     }
-    #message{
-        height: 100px;
-    }
     #submit{
-        width: 90px;
-        height: 30px;
-        color: #ffffff;
-        background-color: #4aaaa5;
-        border: none;
-        border-radius: 4px;
-        margin-top: 7px;
         margin-bottom: 10px;
     }
     p{
-        padding-right: 20px;
-        padding-left: 20px;
-        color: #777777;
         padding-bottom: 10px;
     }
     .imagename{
-        position: absolute;
         width: 180px;
         height: 25px;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        text-align: center;
-        padding-top: 18px;
         margin-top: 124px;
     }
     .One, .four{
@@ -367,37 +254,11 @@ form{
     .Three,.six{
         margin-right: 30px;   
     }
-     /* .four{
-        clear:both;
-        position: relative;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 30px;
-        float: left;    
-    } */
-    /* .five,.six{
-        position: relative;
-        text-align: center;
-        margin-top: 30px;
-        margin-left: 50px;
-        float: left;    
-    }
-    .six{
-        margin-right: 100px;   
-    } */
     #BodyPort{
-        /* background-color: blue;  */
         width: 660px;
         height: 490px;
-        margin: auto;
-        /* padding:20px; */
-        background-color: #ffffff;
     }
     img{
-        float: left;
-        padding: 0px;
-        /* padding-top: 20px;
-        padding-right: 20px; */
         width: 180px;
         height: 180px;
     }
@@ -405,104 +266,35 @@ form{
   }
   @media screen and (max-width: 768px) {
     /* The body's bg color will be #333 */
-    #Top{
-        background-color: #ffffff;
-        border-bottom: 2px solid #cccccc;
-        margin-bottom: 30px;
-    }
     #Header{
-        background-color: #ffffff;
         width: 620px;
-        height: 70px;
-        margin: auto;
-        border-color: #cccccc;
-    }
-    #Name{
-        height: 50px;
-        width: 280px;
-        float: left;
-        text-align: center;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-weight: bolder;
-        font-size: 30px;
-        padding-top: 20px;
-        padding-left: 2px;
-    }
-    #Nav{
-        height: 43px;
-        width: 243px;
-        float: right;
-        padding-top: 27px;
-        background-color: #ffffff;
     }
     #Body{
-        /* background-color: blue;  */
         width: 620px;
         height: auto;
-        margin: auto;
-        /* padding-bottom: 1%; */
-        /* padding:20px; */
-        background-color: #ffffff;
     }
     #About{
-            height: 50px;
             width: 580px;
-            margin: auto;
-            font-weight: bolder;
-            font-size: 30px;
-            padding-top: 20px;
-            color: #4aaaa5;
-            border-bottom: 2px solid #cccccc;
         }
     #Footer, #Copyright{
-            height: 15px;
-            background-color: #666666;
             position: static; bottom: 0; 
-            width: 100%;
-            text-align: center;
-        }
-    #Copyright{
-            padding-top: 40px;
-            font-size:12px;
-            border-top: 4px solid #4aaaa5;
-            color:#a8a7a7;
-            /* color: #ffffff; */
-        }
-    #Footer{
-            border-top: 2px solid #4aaaa5;
         }
     #message,#email,#name{
-        margin-top: 4px;
-        border-radius: 4px; 
-        height: 25px;
         width: 100%;
-            
         }
     #Form{
         width: 92%;
         margin: 4%;
     }
-    #message{
-        height: 100px;
-    }
     #submit{
-        width: 90px;
-        height: 30px;
-        color: #ffffff;
-        background-color: #4aaaa5;
-        border: none;
-        border-radius: 4px;
-        margin-top: 7px;
         margin-bottom: 10px;
     }
-    p{
-        padding-right: 20px;
-        padding-left: 20px;
-        color: #777777;
-        font-size: 15px;
-            
-        }
+    img{
+        float: left;
+        padding: 0px;
+        width: 220px;
+        height: 220px;
+    }
     .imagename{
         position: absolute;
         width: 220px;
@@ -513,13 +305,9 @@ form{
         padding-top: 18px;
         margin-top: 150px;
     }
-    /* .One{
-        position: relative;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 30px;
-        float: left;    
-    } */
+    p{
+        font-size: 15px;  
+    }
     .One,.Two,.Three,.four,.five,.six{
         position: relative;
         text-align: center;
@@ -528,110 +316,42 @@ form{
         float: left;  
         margin-right: 0px;  
     }
-    img{
-        float: left;
-        padding: 0px;
-        /* padding-top: 20px;
-        padding-right: 20px; */
-        width: 220px;
-        height: 220px;
-    }
-    /* .four{
-        position: relative;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 30px;
-        float: left;  
-        margin-right: 0px;  
-    } */
-    /* .Two::after,.four::after,.six::after{
-        clear:left;
-    } */
-    /* .Three,.six{
-        margin-right: 100px;   
-    } */
-    /* .Three, .five{
-        position: relative;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 0; 
-        float: left;    
-    } */
-    /* .five,.six{
-        position: relative;
-        text-align: center;
-        margin-top: 30px;
-        margin-left: 50px;
-        float: left;    
-    }
-    .six{
-        margin-right: 100px;   
-    } */
     #BodyPort{
-        /* background-color: blue;  */
         width: 620px;
         height: 810px;
-        margin: auto;
-        position: relative; 
-        /* padding:20px; */
-        background-color: #ffffff;
+        position: relative;
     }
   }
   @media screen and (max-width: 640px) {
 
     #Top{
-        background-color: #ffffff;
         border-bottom: 2px solid #cccccc;
         margin-bottom: 5%;
     }
     #Header{
-        background-color: #ffffff;
         width: 100%;
         height: 90px;
-        margin: auto;
-        border-color: #cccccc;
     }
     #Name{
         height: 40px;
         width: 100%;
-        float: left;
-        text-align: center;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-weight: bolder;
-        font-size: 30px;
         padding-top: 10px;
-        /* padding-left: 2px; */
     }
     #Nav{
         height: 27px;
         width: 100%;
         padding-top: 12px;
-        background-color: #ffffff;
     }
-     /* #Small{
-        height: 27px;
-        width: 80%;
-    }  */
     #Body{
         /* background-color: blue;  */
         width: 90%;
         height: auto;
-        margin: auto;
-        /* padding-bottom: 1%; */
-        /* padding:20px; */
-        background-color: #ffffff;
     }
     #About{
         height: 40px;
         width: 90%;
-        margin: auto;
-        font-weight: bolder;
         font-size: 25px;
         padding-top: 15px;
-        color: #4aaaa5;
-        border-bottom: 2px solid #cccccc;
         }
     #HomeImage{
         float: left;
@@ -646,61 +366,28 @@ form{
         margin-bottom: 0px;
         }
     #Footer, #Copyright{
-        height: 15px;
-        background-color: #666666;
-        position: static; bottom: 0; 
-        width: 100%;
-        text-align: center;
-        }
-    #Copyright{
-        padding-top: 40px;
-        font-size:12px;
-        border-top: 4px solid #4aaaa5;
-        color:#a8a7a7;
-        /* color: #ffffff; */
-        }
-    #Footer{
-        border-top: 2px solid #4aaaa5;
+        position: static; bottom: 0;
         }
     #message,#email,#name{
-        margin-top: 4px;
-        border-radius: 4px; 
-        height: 25px;
-        width: 98%;
-            
+        width: 98%;  
         }
     #Form{
         width: 90%;
         margin: 5%;
     }
-    #message{
-        height: 100px;
-    }
     #BodyPort{
-        /* background-color: blue;  */
-        /* position: relative; */
         width: 90%;
         height: 1485px;
-        margin: auto;
-        /* padding:20px; */
-        background-color: #ffffff;
-        
     }
     
     .One{
         width: 100%;
         height: 220px;
-        /* padding-left: 20%; */
         margin-left: 0;
         margin-top: 15px;
         margin-bottom:  15px;
-        /* padding-left: 19%;
-        padding-top: 5%; */
         position: relative;
         text-align: center;
-        
-        /* margin-top: 30px;
-        margin-left: 100px; */
         float: none;    
     }
     .Two,.Three,.five,.six{
@@ -728,41 +415,22 @@ form{
     }
     img{
         float: none;
-        padding: 0px;
-        /* padding-top: 20px;
-        padding-right: 20px; */
-        width: 220px;
-        height: 220px;
-        /* margin-left: auto; */
+        width: 200px;
+        height: 200px;
     }
     .imagename{
         float: none;
         padding: 0px;
-        /* padding-top: 20px;
-        padding-right: 20px; */
-        width: 220px;
-        height: 35px;
+        width: 200px;
         margin-top: -70px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 18px;
         position: relative;
-        /* margin-left: 20%; */
-        /* position: none;
-        width: 220px;
-        height: 35px;
-        top: 150px;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        text-align: center;
-        padding-top: 18px;
-        margin-top: 0px;        */
-        /* margin-left: 20%; */
     }
     p{
         padding-right: 5%;
         padding-left: 5%;
-        color: #777777;
         font-size: 15px;
             
         }
@@ -770,18 +438,5 @@ form{
         width: 243px;
         height: 18px;
         margin:auto;
-    }
-    li{
-        display: block;
-        height: 18px;
-        width: 80px;
-        text-align: center;
-        background-color: #ffffff;
-        /* color: #777777; */
-        /* color: #a8a7a7; */
-        float:left;
-        /* font-weight: bold; */
-        /* padding-top: 25px; */
-        font-size: 14px;
     }
   }
