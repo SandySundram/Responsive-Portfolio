@@ -371,6 +371,9 @@ form{
     #message,#email,#name{
         width: 98%;  
         }
+    #message{
+        height: 140px;
+    }
     #Form{
         width: 90%;
         margin: 5%;
